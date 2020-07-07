@@ -1,0 +1,7 @@
+SELECT * FROM Produit
+
+SELECT * FROM Produit WHERE Nom LIKE 'T-Shirt%'
+
+SELECT * FROM Produit WHERE Prix BETWEEN '19.98' AND '20'
+
+SELECT * FROM Produit WHERE Quantite BETWEEN '4' AND '5.9'
